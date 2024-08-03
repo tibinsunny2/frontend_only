@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.footer {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer--slogan > p {
+  width: 40%;
+}
+.services--list {
+  list-style: none;
+  margin-bottom: 3px;
+}
+button {
+  padding: 10px;
+  background-color: #1c92d2;
+  color: #fff;
+  border: none;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #fff;
+  color: #1c92d2;
+}
+p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.input--email {
+  padding: 10px;
+  width: 100%;
+}
+.footer--links {
+  color: #fff;
+  text-decoration: none;
+}
+.footer--links:hover {
+  color: rgb(220, 220, 220);
+}

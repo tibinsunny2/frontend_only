@@ -1,0 +1,9 @@
+.customer--reviews {
+  background-color: #f2fcfe;
+  padding: 50px;
+}
+.reviews-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

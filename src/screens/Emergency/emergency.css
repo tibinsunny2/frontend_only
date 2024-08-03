@@ -1,0 +1,68 @@
+.ememrgencyconatiner {
+  width: 100%;
+  height: 100vh;
+}
+.ewrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+overflow-y: hidden;
+  grid-template-rows: 1fr 1fr;
+}
+.em1firstbox {
+  width: 100%;
+  height: 100%;
+  border: 20px solid black;
+  background-color: aqua;
+}
+.emsecondbox {
+  width: 100%;
+  border: 20px solid black;
+  height: 100%;
+}
+.emainbox1 {
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-rows: 4fr 6fr !important ;
+}
+.em1subfirstbox {
+  margin: 10px;
+}
+.emsubsecondbox {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(189, 155, 155);
+  overflow-y: scroll;
+}
+.emsearchbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emsearchbox button {
+ 
+  margin-left: 10px;
+}
+.emsearchbox button:hover {
+  margin-top: -5px;
+}
+.detailbox {
+  width: 100%;
+  height: fit-content;
+  color: white;
+  display: flex;
+  margin-top: -20px;
+  background-color: black;
+}
+.dname {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: center;
+}

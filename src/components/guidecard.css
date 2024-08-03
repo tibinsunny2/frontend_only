@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* .guidecard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.guide--card {
+  width: 250px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 5px 12px -2px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 4px 5px 12px -2px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 4px 5px 12px -2px rgba(0, 0, 0, 0.51);
+}
+.guidecard--header {
+  width: 100%;
+  height: 40%;
+  background-color: #1c92d2;
+  border-radius: 4px;
+}
+.card--data {
+  width: 100%;
+  height: 50%;
+  margin-top: 55px;
+  text-align: center;
+}
+.guidecard--data > p {
+  font-size: 12px;
+}
+.guidecard--img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.guidecard--btn > button {
+  background-color: #1c92d2;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.guidecard--btn > button:hover {
+  background-color: #07476a;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 4px;
+}

@@ -1,0 +1,160 @@
+.crcontainer {
+    width: 100%;
+    height: 100%;
+  }
+  .crwrapper {
+    min-width: 100%;
+    max-width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+background-image: url("https://images.pexels.com/photos/259249/pexels-photo-259249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  .crmainbox {
+    max-width: 50%;
+    min-width: 50%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    border-radius: 20px;
+  }
+  .crheadmain {
+    font-size: 1.6rem;
+    color: rgb(31, 2, 2);
+    font-weight: 700;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+  }
+  .crdevision {
+    /* width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    background-color: rgb(63, 73, 119);
+    justify-content: space-around;
+    align-items: center; */
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 30px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sub11 {
+ color: black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .from {
+    width: 80%;
+    height: 100%;
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+    border-radius: 20px;
+  }
+  
+  .sub12 {
+    width: 100%;
+    color: black;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .to {
+    width: 80%;
+    margin-left: 50px;
+    height: 100%;
+    outline: none;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 20px;
+    color:black
+  }
+  
+  .changingicon {
+    border: 2px solid gray;
+    box-shadow: 5px 5px 5px black;
+    max-width: 200px;
+    min-width: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .changingicon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+  }
+  .resultbox {
+    width: 80%;
+    background-color: rgb(141, 136, 136);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .resultmain {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .csubmit {
+    width: 20%;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgb(67, 109, 185);
+    box-shadow: 5px 5px 5px black;
+  }
+  .inputfield input{
+    max-width: 300px;
+    min-width: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20%;
+    outline: none;
+    color: black;
+  }
+  .backbutton{
+   background-color: red;
+   border-radius: 20px;
+   cursor: pointer;
+   height: fit-content;
+  }

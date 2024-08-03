@@ -1,0 +1,28 @@
+.field {
+  display: block;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  border: 1px solid rgb(181, 181, 181);
+}
+.contact-form-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 50%;
+  margin-left: 25%;
+  padding: 30px;
+}
+.contact--btn {
+  width: 60%;
+  margin-bottom: 55px;
+  cursor: pointer;
+  padding: 20px;
+}
+.contact--btn:hover {
+  background-color: #000;
+  color: #fff;
+}
